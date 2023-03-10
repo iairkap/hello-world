@@ -1,0 +1,26 @@
+.contenedorGeneral {
+  background: #00b4cc85;
+  border: #b2df28, solid, 20px;
+  backdrop-filter: blur(2px);
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  box-shadow: 7px 11px 4px -1px rgba(255, 255, 255, 0.27);
+  width: 1000px;
+  height: max-content;
+  display: flex;
+  margin-top: 20vh;
+  margin-left: 25vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  justify-content: flex-start;
+}
+
+h1 {
+  color: white;
+  font-size: 2em;
+}
+.imagen {
+  border-radius: 50%;
+  margin-right: 6vh;
+}
