@@ -1,8 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Secular+One&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Righteous&family=Secular+One&display=swap");
+ */
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
 .App {
   text-align: center;
-  font-family: "Righteous", cursive;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* 

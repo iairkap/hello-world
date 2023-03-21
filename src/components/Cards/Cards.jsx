@@ -9,6 +9,7 @@ function Cards({ characters, onClose }) {
         return (
           <div className="contenedor">
             <Card
+              key={id}
               id={id}
               name={name}
               species={species}
@@ -22,5 +23,4 @@ function Cards({ characters, onClose }) {
     </div>
   );
 }
-
 export default Cards;
